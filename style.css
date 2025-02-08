@@ -1,0 +1,75 @@
+body{
+    background-color: #171717;
+    margin: 0%;
+    padding: 0%;
+    font-family: GeneralSans-Regular;
+    color: white;
+}
+
+@font-face {
+    font-family: GeneralSans-Regular;
+    src: url(GeneralSans_Complete/Fonts/OTF/GeneralSans-Regular.otf);
+}
+
+@font-face{
+    font-family: Pilowlava;
+    src: url(pilowlava-master/Fonts/Pilowlava-Regular.otf);
+}
+
+.li a{
+    text-decoration: none;
+}
+
+li{
+    color: white;
+    list-style: none;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 20px;
+}
+
+.pilowtext{
+    font-family: Pilowlava; 
+    font-size: 190px;
+    margin: 0%;
+    padding: 0%;
+    text-align: left;
+}
+
+.pilowtext2{
+    font-family: Pilowlava; 
+    font-size: 190px;
+    margin-top: -13%;
+    text-align: left;
+}
+
+.flexdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 25px;
+}
+
+.infoP{
+    word-wrap: break-word;
+    width: 600px;
+    text-align: right;
+    margin-bottom: 130px;
+    font-size: 20px;
+}
+
+#img01{
+    height: 600px;
+    width: auto;
+    margin-left: 2%;
+    margin-top: 5%;
+}
